@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: "Whitney", sans-serif;
+}
 /* COMMON */
 .container{
     width: 80%;
@@ -22,17 +25,23 @@ li{
 }
 a{
     text-decoration: none;
+}
+li a{    
     color: white;
     margin-left: 1.5em;
 }
-.btn{
+.btn-white{
     background-color: white;
+    color: black;
+}
+.btn-small{
+    padding: 0.8px;
     border-radius: 50px;
+    font-size: 0.9em;
 }
 /* HEADER */
 header{
     background-color: #3161e0;
-    /* test */
     height: 60px;
 }
 nav{
@@ -41,8 +50,6 @@ nav{
 }
 .col{
     float: left;
-    /* test */
-    height: 60px;
 }
 .logo, .access{
     width: 15%;
@@ -53,4 +60,19 @@ nav{
 .logo img{
     width: 100%;
     vertical-align: middle;
+}
+/* MAIN */
+/* BANNER */
+.banner{
+    background-image: url(../img/jumbo.png);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.text-banner{
+    display: inline-block;
+    text-align: center;
+    width: 60%;
 }
